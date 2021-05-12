@@ -7,6 +7,22 @@
     <title>World's Best Puppy</title>
 </head>
 <style>
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
     img {
       display: block;
       margin-left: auto;
@@ -14,24 +30,24 @@
     }
     </style>
 <body style="background-color: rgb(104, 222, 238);">
-    <h1 style="background-color:rgb(153, 241, 94);font-size:300%; font-family:verdana; text-align:center; ">Meet Grá!</h1>
+    <h1 style="background-color:rgb(76, 117, 230);font-size:300%; font-family:verdana; text-align:center; ">Meet Grá!</h1>
     <div class="row">
         <div class="column">
             <a href="page1.html">
-                <img src="https://i.ibb.co/3fq2Bd8/IMG-20210510-WA0038.jpg" alt="MyPuppy1" width="600" class="centre">
+                <img src="https://i.ibb.co/v3B24Y4/IMG-20210510-WA0038.jpg" alt="MyPuppy1" width="440" class="centre">
             </a>
             </div>
         <div class="column">
             <a href="page2.html">
-                <img src="https://i.ibb.co/jVHJ2Tg/IMG-20210510-215952-017-1.jpg" alt="MyPuppy2" width="600" class= "centre">
+                <img src="https://i.ibb.co/QnmVYj6/IMG-20210510-215952-017-1.jpg" alt="MyPuppy2" width="440" class= "centre">
             </a>
             </div>
         <div class="column">
             <a href="page3.html">
-                <img src="https://i.ibb.co/qdNdbkT/Screenshot-20210511-155043-com-android-gallery3d.jpg" alt="MyPuppy3" width="600" class= "centre">
+                <img src="https://i.ibb.co/p0PrhPp/Screenshot-20210511-155043-com-android-gallery3d-2.jpg" alt="MyPuppy3" width="440" class= "centre">
             </a>
             </div>
       </div> >
-      <h2 style="background-color:Violet;font-size:300%; font-family:verdana; text-align:center; ">Click on any image to learn an interesting fact about him!</h2>
+      <h2 style="background-color:rgb(188, 249, 253);font-size:200%; font-family:verdana; text-align:center; ">Click on any image to learn an interesting fact about him!</h2>
 </body>
 </html>
